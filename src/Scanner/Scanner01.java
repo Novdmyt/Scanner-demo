@@ -8,6 +8,7 @@ public class Scanner01 {
         System.out.println("Enter a number: ");
         int number = sc.nextInt();
         System.out.println("The number is " + number);
+        sc.close();
     }
 
 
