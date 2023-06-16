@@ -12,6 +12,13 @@ public class Scanner05 {
         int id = scanner.nextInt();
 
         scanner.nextLine();
+        title ="Enter phone: ";
+        System.out.print(title);
+        String phone = scanner.nextLine();
+
+        System.out.println("Id is " + id + " and phone is " + phone);
+
+        scanner.close();
 
 
     }
